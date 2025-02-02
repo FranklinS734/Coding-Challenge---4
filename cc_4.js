@@ -54,3 +54,12 @@ let employee = {
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`);
 }
+
+// Task 6 - For...Of Loop
+// List of products
+let products = ["Iphone", "Bose Headphones", "Smart Watch"];
+
+// Loop through product array
+for (let product of products) {
+    console.log(`Product: ${product}`);
+}
