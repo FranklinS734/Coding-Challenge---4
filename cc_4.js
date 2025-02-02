@@ -73,7 +73,7 @@ orders.forEach(order => {
     console.log(`Processing order ID: ${order}`);
 });
 
-// Task 8 - Tax Calculation
+// Task 8 - Tax Calculation (Function Declaration)
 // Function to calculate tax
 function calculateTax(amount, taxRate) {
     return amount * taxRate;
@@ -84,7 +84,7 @@ let tax = calculateTax(85, 0.06);
 console.log(`Tax amount: $${tax}`);
 
 
-// Task 9 - Discount Application
+// Task 9 - Discount Application (Function Expressions)
 // Function expression for applying discount
 const applyDiscount = function(price, discountPercentage) {
     return price * (1 - discountPercentage / 100);
@@ -93,3 +93,11 @@ const applyDiscount = function(price, discountPercentage) {
 // Applied on first sale
 let discountedPrice = applyDiscount(200, 15);
 console.log(`Discounted price: $${discountedPrice}`);
+
+// Task 10 - Arrow Functions
+// Arrow function to calculate points (1 point per $10 spent)
+const calculatePoints = purchaseAmount => Math.floor(purchaseAmount / 10);
+
+// 
+let points = calculatePoints(200); // sale one of 200
+console.log(`Loyalty points earned: ${points}`);
