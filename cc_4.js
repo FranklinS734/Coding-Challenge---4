@@ -30,3 +30,14 @@ console.log(`Stock remaining: ${stock}`);
 stock--; // Decrease stock
 }
 console.log("Stock is empty");
+
+// Task 4 - Do...While Loop
+// Starting count of responses
+let responses = 0;
+
+// Do...while loop to simulate collecting responses
+do {
+    responses++;
+    console.log(`Thank you for completing response ${responses}!`);
+} while (responses < 3);
+console.log("Survey completed. We appreciate your feedback!");
