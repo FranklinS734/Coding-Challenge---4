@@ -41,3 +41,16 @@ do {
     console.log(`Thank you for completing response ${responses}!`);
 } while (responses < 3);
 console.log("Survey completed. We appreciate your feedback!");
+
+// Task 5 - For...In Loop
+// Employee details as an object
+let employee = {
+    name: "Sunny Man",
+    position: "Data Analyst",
+    salary: 65000
+};
+
+// Loop through object properties
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}
