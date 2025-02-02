@@ -63,3 +63,12 @@ let products = ["Iphone", "Bose Headphones", "Smart Watch"];
 for (let product of products) {
     console.log(`Product: ${product}`);
 }
+
+// Task 7 - forEach() Method
+// List of order IDs
+let orders = [721, 722, 723];
+
+// forEach loop to log order IDs
+orders.forEach(order => {
+    console.log(`Processing order ID: ${order}`);
+});
