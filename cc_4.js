@@ -19,3 +19,14 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i];
 }
 console.log(`Total sales: $${totalSales}`);
+
+// Task 3 - While Loop
+// Starting stock value
+let stock = 10;
+
+// While loop to decrease stock until 0
+while (stock > 0) {
+console.log(`Stock remaining: ${stock}`);
+stock--; // Decrease stock
+}
+console.log("Stock is empty");
